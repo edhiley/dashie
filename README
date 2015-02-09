@@ -1,0 +1,27 @@
+git clone https://github.com/edhiley/pydashie.git pydashie_src
+
+- splunk
+-- deep ping status
+-- riak status
+-- services live where
+-- activity (vs -7 days)
+-- response times
+
+- jenkins
+-- summary of build status
+
+- jira
+-- queue of active incidents
+-- count of incidents by severity
+
+- confluence?
+-- current release in live?
+-- current/next on merge queue
+
+- cherwell
+-- active by severity?
+
+
+- replace src with locally held ?
+- configure working environment
+- service start for main ?
