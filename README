@@ -1,4 +1,22 @@
-git clone https://github.com/edhiley/pydashie.git pydashie_src
+Setup
+
+    git clone https://github.com/edhiley/pydashie.git pydashie_src
+
+Starting Vm
+
+    vagrant up
+
+Connect to VM
+
+    vagrant ssh
+
+Start project
+
+    cd pydashie
+    ./start.sh
+
+----
+
 
 - splunk
 -- deep ping status
@@ -22,6 +40,4 @@ git clone https://github.com/edhiley/pydashie.git pydashie_src
 -- active by severity?
 
 
-- replace src with locally held ?
-- configure working environment
-- service start for main ?
+
