@@ -7,12 +7,12 @@ pip install virtualenv
 
 pushd /home/vagrant
 su vagrant
-#git clone https://github.com/edhiley/pydashie.git
-#sudo chown -R vagrant pydashie
 pushd pydashie
 
 virtualenv ENV
 source ENV/bin/activate
 pip install -r requirements.txt
 
+cp /vagrant/scripts/start.sh /home/vagrant/pydashie/
+chown vagrant /home/vagrant/pydashie/start.sh
 

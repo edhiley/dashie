@@ -15,6 +15,10 @@ Start project
     cd pydashie
     ./start.sh
 
+Site available locally
+
+    curl localhost:5000
+
 ----
 
 
